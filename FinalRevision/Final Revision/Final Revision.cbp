@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Final Revision" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Final Revision" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../Level-One/cd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/chmod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/chown.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/creat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/level1.h" />
+		<Unit filename="../../Level-One/link.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/ls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/mkdir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/pwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/rm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/rmdir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/stat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/symlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/touch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-One/unlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/cat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/close.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/cp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/level2.h" />
+		<Unit filename="../../Level-Two/lseek.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/mv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/open.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/pfd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Level-Two/write.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Utility-Functions/alloc_dealloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Utility-Functions/alloc_dealloc.h" />
+		<Unit filename="../../Utility-Functions/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../Utility-Functions/util.h" />
+		<Unit filename="../../ext2_fs.h" />
+		<Unit filename="../../main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../project.h" />
+		<Unit filename="../../types.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

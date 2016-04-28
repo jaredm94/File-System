@@ -1,0 +1,29 @@
+int _lseek(int fd, int position)
+{
+    //From fd, find the OFT entry.
+    char * child;
+
+    int i = 0;
+
+    int ino = getino(running->cwd->fd,pathname);
+    MINODE * hold = iget(running->cwd->fd, ino);
+
+    for(i=0; i < NFD; i++)
+    {
+        if(running->fd[i]->inodeptr==hold)
+        {
+            break;
+        }
+    }
+// change OFT entry's offset to position but make sure NOT to over run either end
+    //of the file.
+    if(position > running->fd[i]->inodeptr->INODE.i_size || postion < 0)
+    {
+        printf("\nERROR: BAD OFFSET VALUE RETURNING FROM LSEEK.\n");
+        return -1;
+    }
+
+    running->fd[i]->offset = position;
+
+    return position
+}

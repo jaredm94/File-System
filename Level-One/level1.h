@@ -30,7 +30,6 @@ int isDirEmpty(MINODE *dir);
 int rm_child(MINODE *parent, char *name);
 int mysymfile(MINODE *pip, char *old_name, char *name);
 
-
 int unlinkCmd();
 int touch_fileCmd();
 int symlinkCmd();

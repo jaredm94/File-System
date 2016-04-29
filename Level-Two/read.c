@@ -11,13 +11,16 @@ int readCmd()
     int i =0;
     int count =0;
 
-    while(i=myread(fd,buf,bytes))
-    {
-         if(bytes<=0) break;
-        count += i;
-        bytes -= i;''
-        printf("%s",buf);
-    }
+      while(i=myread(fd,buf,bytes))
+     {
+
+
+         count += i;
+         bytes -= i;
+         printf("%s",buf);
+        if(bytes<=0) break;
+
+     }
 
     printf(BOLDYELLOW"\n\tREAD CALLED: %d bytes read.\n" RESET,count);
     return count;

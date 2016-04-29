@@ -13,7 +13,9 @@ int readCmd()
 
     while(i=myread(fd,buf,bytes))
     {
+         if(bytes<=0) break;
         count += i;
+        bytes -= i;
         printf("%s",buf);
     }
 

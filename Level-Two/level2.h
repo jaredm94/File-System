@@ -21,4 +21,31 @@ int cat();
 int close_M();// the close for main
 int mvCmd();
 int cpCmd();
+
+int cat();
+
+int close_M();
+int close_file(char * pathname);
+int close_help(int fd);
+
+int cpCmd();
+int cp(char * src, char * dest);
+
+
+int _lseek();
+
+int mvCmd();
+int mv(char *src,char *sdest);
+
+int open_file(char * pathname, int user_mode);
+int openCmd();
+
+int pfd();
+
+int readCmd();
+int myread(int fd, char *buf, int nbytes);
+
+int mywrite(int fd, char buf[], int nbytes);
+int writeCmd();
+
 #endif // _LEVEL2H_

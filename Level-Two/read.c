@@ -15,7 +15,7 @@ int readCmd()
     {
          if(bytes<=0) break;
         count += i;
-        bytes -= i;
+        bytes -= i;''
         printf("%s",buf);
     }
 
